@@ -1,0 +1,428 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{recommendation-engines}{article}{}
+    \name{author}{1}{}{%
+      {{hash=D}{%
+         family={Dataaspirant},
+         familyi={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{D1}
+    \strng{fullhash}{D1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{An Introduction To Recommendation Engines}
+    \verb{url}
+    \verb https://dataconomy.com/2015/03/an-introduction-to-recommendation-engi
+    \verb nes
+    \endverb
+    \field{journaltitle}{dataconomy.com}
+    \field{month}{03}
+    \field{year}{2015}
+  \endentry
+
+  \entry{steve-jobs}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MC}{%
+         family={Mui},
+         familyi={M\bibinitperiod},
+         given={Chunka},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MC1}
+    \strng{fullhash}{MC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Five Dangerous Lessons to Learn From Steve Jobs}
+    \verb{url}
+    \verb https://www.forbes.com/sites/chunkamui/2011/10/17/five-dangerous-less
+    \verb ons-to-learn-from-steve-jobs/?sh=7a7ad973a95c
+    \endverb
+    \field{journaltitle}{forbes.com}
+    \field{month}{10}
+    \field{year}{2011}
+  \endentry
+
+  \entry{numpy}{article}{}
+    \name{author}{1}{}{%
+      {{hash=cN}{%
+         family={community},
+         familyi={c\bibinitperiod},
+         given={NumPy},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{cN1}
+    \strng{fullhash}{cN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{NumPy v1.19 Manual}
+    \verb{url}
+    \verb https://numpy.org/doc/stable/
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{pandas}{article}{}
+    \name{author}{1}{}{%
+      {{hash=WK}{%
+         family={Willems},
+         familyi={W\bibinitperiod},
+         given={Karlijn},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WK1}
+    \strng{fullhash}{WK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Pandas Tutorial: DataFrames in Python}
+    \verb{url}
+    \verb https://www.datacamp.com/community/tutorials/pandas-tutorial-datafram
+    \verb e-python
+    \endverb
+    \field{journaltitle}{datacamp.com}
+    \field{month}{01}
+    \field{year}{2019}
+  \endentry
+
+  \entry{matplotlib}{article}{}
+    \name{author}{1}{}{%
+      {{hash=mdt}{%
+         prefix={matplotlib\bibnamedelima development},
+         prefixi={m\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={team},
+         familyi={t\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{tmd1}
+    \strng{fullhash}{tmd1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Matplotlib: Release 3.3.3}
+    \verb{url}
+    \verb https://matplotlib.org/contents.html
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{sk-learn}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Brownlee},
+         familyi={B\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ1}
+    \strng{fullhash}{BJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{A Gentle Introduction to Scikit-Learn: A Python Machine
+  Learning Library}
+    \verb{url}
+    \verb https://machinelearningmastery.com/a-gentle-introduction-to-scikit-le
+    \verb arn-a-python-machine-learning-library/
+    \endverb
+    \field{month}{04}
+    \field{year}{2014}
+  \endentry
+
+  \entry{flask}{article}{}
+    \name{author}{1}{}{%
+      {{hash=P}{%
+         family={Pallets},
+         familyi={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{P1}
+    \strng{fullhash}{P1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Flask Documentation (1.1.x): Release 1.1.2}
+    \verb{url}
+    \verb https://flask.palletsprojects.com/en/1.1.x/
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{react-doc}{article}{}
+    \name{author}{1}{}{%
+      {{hash=IF}{%
+         family={Inc.},
+         familyi={I\bibinitperiod},
+         given={Faceboook},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IF1}
+    \strng{fullhash}{IF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{React Documentation}
+    \verb{url}
+    \verb https://reactjs.org/docs/getting-started.html
+    \endverb
+    \field{year}{2020}
+  \endentry
+
+  \entry{react-tutorial}{article}{}
+    \name{author}{1}{}{%
+      {{hash=gS}{%
+         family={gowtham},
+         familyi={g\bibinitperiod},
+         given={Sai},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{gS1}
+    \strng{fullhash}{gS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Getting started with Semantic UI React}
+    \field{journaltitle}{reactgo.com}
+    \field{year}{2019}
+  \endentry
+
+  \entry{ml-alpaydin}{book}{}
+    \name{author}{1}{}{%
+      {{hash=AEOU}{%
+         family={Alpaydin},
+         familyi={A\bibinitperiod},
+         given={Ethem (OEzyegin\bibnamedelima University)},
+         giveni={E\bibinitperiod\bibinitdelim O\bibinitperiod\bibinitdelim
+  U\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press Ltd}%
+    }
+    \strng{namehash}{AEOU1}
+    \strng{fullhash}{AEOU1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{0262043793}
+    \field{pagetotal}{712}
+    \field{title}{Introduction to Machine Learning}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/38777620/ethem_oezyegin_university_al
+    \verb paydin_introduction_to_machine_learning.html
+    \endverb
+    \field{month}{03}
+    \field{year}{2020}
+  \endentry
+
+  \entry{ml-janardhanan}{article}{}
+    \name{author}{1}{}{%
+      {{hash=PJ}{%
+         family={PS},
+         familyi={P\bibinitperiod},
+         given={Janardhanan},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJ1}
+    \strng{fullhash}{PJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Human Learning and Machine Learning - How they differ ?}
+    \field{journaltitle}{www.datasciencecentral.com}
+    \field{year}{2020}
+  \endentry
+
+  \entry{ml-samuel}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SAL}{%
+         family={Samuel},
+         familyi={S\bibinitperiod},
+         given={A.\bibnamedelima L.},
+         giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{IBM}}%
+    }
+    \strng{namehash}{SAL1}
+    \strng{fullhash}{SAL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1147/rd.441.0206
+    \endverb
+    \field{number}{1.2}
+    \field{pages}{206\bibrangedash 226}
+    \field{title}{Some studies in machine learning using the game of checkers}
+    \field{volume}{44}
+    \field{journaltitle}{{IBM} Journal of Research and Development}
+    \field{year}{2000}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{ml-cover}{article}{}
+    \name{author}{1}{}{%
+      {{hash=CTMHPE}{%
+         family={Cover T.\bibnamedelima M.},
+         familyi={C\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+         given={Hart P.\bibnamedelima E.},
+         giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim
+  E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTMHPE1}
+    \strng{fullhash}{CTMHPE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Nearest Neighbor Pattern Classification}
+    \field{journaltitle}{IEEE Trans. Inform. Theory}
+    \field{year}{1982}
+  \endentry
+
+  \entry{dm-iberdrola}{article}{}
+    \name{author}{1}{}{%
+      {{hash=I}{%
+         family={Iberdrola},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{I1}
+    \strng{fullhash}{I1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Data Mining: Definition, Examples and Applications}
+    \verb{url}
+    \verb https://www.iberdrola.com/innovation/data-mining-definition-examples-
+    \verb and-applications
+    \endverb
+    \field{journaltitle}{www.iberdrola.com}
+  \endentry
+
+  \entry{dm-idc}{book}{}
+    \name{author}{1}{}{%
+      {{hash=DRJRJG}{%
+         family={David\bibnamedelima Reinsel},
+         familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+         suffix={John\bibnamedelima Gantz},
+         suffixi={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+         given={John\bibnamedelima Rydning},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \name{editor}{1}{}{%
+      {{hash=I}{%
+         family={IDC},
+         familyi={I\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IDC White Paper}%
+    }
+    \strng{namehash}{DRJGJR1}
+    \strng{fullhash}{DRJGJR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Data Age 2025:The Evolution of Data to Life-Critical}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Salton1983}{book}{}
+    \name{author}{1}{}{%
+      {{hash=SG}{%
+         family={Salton},
+         familyi={S\bibinitperiod},
+         given={Gerard},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw-Hill}%
+    }
+    \strng{namehash}{SG1}
+    \strng{fullhash}{SG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{9780070544840}
+    \field{title}{Introduction to modern information retrieval}
+    \list{location}{1}{%
+      {New York}%
+    }
+    \field{year}{1983}
+  \endentry
+
+  \entry{count-vectorizer}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BJ}{%
+         family={Brownlee},
+         familyi={B\bibinitperiod},
+         given={Jason},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ1}
+    \strng{fullhash}{BJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{How to Encode Text Data for Machine Learning with
+  scikit-learn}
+    \field{journaltitle}{machinelearningmastery.com}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Han2017}{book}{}
+    \name{author}{3}{}{%
+      {{hash=HJ}{%
+         family={Han},
+         familyi={H\bibinitperiod},
+         given={Jiawei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kamber},
+         familyi={K\bibinitperiod},
+         given={Micheline},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PJ}{%
+         family={Pei},
+         familyi={P\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier LTD, Oxford}%
+    }
+    \strng{namehash}{HJKMPJ1}
+    \strng{fullhash}{HJKMPJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{isbn}{0123814790}
+    \field{title}{Data Mining: Concepts and Techniques}
+    \verb{url}
+    \verb https://www.ebook.de/de/product/14641128/jiawei_han_micheline_kamber_
+    \verb jian_pei_data_mining_concepts_and_techniques.html
+    \endverb
+    \field{month}{08}
+    \field{year}{2017}
+  \endentry
+\enddatalist
+\endinput

@@ -1,0 +1,10 @@
+\chapter{Conclusion}
+\label{ch:conclusion}
+
+\section{Summary}
+
+This thesis project is focused to help users find good recommendations for movies by searching for the recommendations according to the movie they liked and want to watch similar movies. We took imdb movies datasets and after all preprocessing we got our final dataset with approximately 46000 movie records. We used a cosine similarity algorithm to find similarities between movies based on the genres, director and movie actors. To get better recommendations we took a weighted average of cosine score and user rating. The reason to take a weighted average is that the recommended movies do not just have similarity but are also liked by other users and have good ratings. In imdb datasets there were no movie’s poster, overview and duration time, so to get those we used omdb api. When a user types a movie name and our project shows the details of the searched movie i.e name, released year, duration time, poster, rating, overview and genres, it also gives the top 10 movie recommendations with name, poster and released year and if a user clicks on one of the recommended movies, our project shows the details recommendations according to that clicked movie.
+
+\section{Future Work}
+
+We can improve this project by personalizing for each user, so that we can keep records of each user’s previous searched history and give recommendations according to that. We can also increase our records by including short movies, TV shows, and more movies. In the user interface, we can improve by implementing auto suggestion i.e when a user types movie name in search bar after typing three letters it suggests the list of movie names which contains those letters. To personalize it we can also create a web page for user registration form and user login, so that we can keep a record of each user.
