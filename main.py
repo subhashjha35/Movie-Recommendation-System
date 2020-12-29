@@ -63,8 +63,8 @@ def update_matrix():
     except:
         print("There was some error while updating the matrix")
 
-
-cos_s = np.load('cosine_matrix.npy')
+update_matrix() #run once, comment this line later
+# cos_s = np.load('cosine_matrix.npy')
 
 
 def get_cosine_scores(ind):
