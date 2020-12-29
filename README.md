@@ -1,18 +1,18 @@
 # Movie-Recommendation-System
 
 
-Requirements:
+### Requirements:
 
-Install Python 3.7
-Install Node.js
+- Install Python 3.7
+- Install Node.js
 
 - pip install numpy
 - pip install pandas
-- _ pip install matplotlib
-- _pip install scikit-learn
--_pip install requests
--_pip install Flask
--_npm install semantic-ui-react semantic-ui-css
+- pip install matplotlib
+- pip install scikit-learn
+- pip install requests
+- pip install Flask
+- npm install semantic-ui-react semantic-ui-css
 
 How to run this application:
 - python main.py 
