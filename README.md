@@ -8,7 +8,7 @@ Install Node.js
 
 - pip install numpy
 - pip install pandas
--_ pip install matplotlib
+- _ pip install matplotlib
 - _pip install scikit-learn
 -_pip install requests
 -_pip install Flask
