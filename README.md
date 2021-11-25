@@ -1,9 +1,8 @@
 <div align="center">
-	<h1> My BSc Thesis </h1>
-	<style>H1{color:Blue;}</style>
-	<p>Eotvos Lorand University, Budapest, Hungary</p>
-
-<img src="https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif" />
+ <h1>My BSc Thesis</h1><br>
+	<img src="https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif" />
+<br>
+<a href="https://www.elte.hu/en/faculties/informatics" target="_blank">Eotvos Lorand University (ELTE), Budapest, Hungary</a>
 </div>
 
 
