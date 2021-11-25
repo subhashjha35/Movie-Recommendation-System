@@ -1,4 +1,13 @@
-# Movie-Recommendation-System
+<div align="center">
+	<h1> My BSc Thesis </h1>
+	<style>H1{color:Blue;}</style>
+	<p>Eotvos Lorand University, Budapest, Hungary</p>
+
+<img src="https://media.giphy.com/media/qLHzYjlA2FW8g/giphy.gif" />
+</div>
+
+
+## Movie-Recommendation-System
 
 
 ### Requirements:
@@ -14,7 +23,7 @@
 - pip install Flask
 - npm install semantic-ui-react semantic-ui-css
 
-How to run this application:
+### How to run this application:
 - python main.py 
 	- In main.py, update_matrix function needs to be run only once and it will save cosine matrix
 	file locally, later function call can be commented and program will load saved file.
