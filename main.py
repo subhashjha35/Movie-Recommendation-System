@@ -63,8 +63,8 @@ def update_matrix():
     except:
         print("There was some error while updating the matrix")
 
-update_matrix() #run once, comment this line later
-# cos_s = np.load('cosine_matrix.npy')
+# update_matrix() #run once, comment this line later
+cos_s = np.load('cosine_matrix.npy')
 
 
 def get_cosine_scores(ind):
@@ -126,6 +126,9 @@ def recommendations(title):
 
 app = Flask(__name__)
 
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({'message': 'API Works!'})
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
