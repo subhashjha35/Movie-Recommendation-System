@@ -1,23 +1,43 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import { ListMovies } from "./components/ListMovies";
+import ListMovies from "./components/ListMovies";
 import { RecommendationForm } from "./components/RecommendationForm";
 
-function App() {
-	const [recommendedMovies, setRecommendedMovies] = useState([]);
-	const [currentMovie, setCurrentMovie] = useState([]);
+export interface IRecommendedMovie {
+	id: number;
+	poster: string;
+	title: string;
+	year: number;
+}
+
+export interface IUserCurrentMovie {
+	genres: string;
+	id: number;
+	overview: string;
+	poster: string;
+	rating: number;
+	runtime: string;
+	title: string;
+	year: number;
+}
+
+const App: React.FC = () => {
+	const [recommendedMovies, setRecommendedMovies] = useState<IRecommendedMovie[]>([]);
+	const [currentMovie, setCurrentMovie] = useState<IUserCurrentMovie>(
+		{} as any
+	);
 	const [url, setUrl] = useState(["", "/static/media/857752.7ac2bde8.png"]);
 
 	useEffect(() => {
-		function pictures(p) {
+		function pictures(p: any): any {
 			return p.keys().map(p);
 		}
 		const pics = pictures(
 			require.context("./images", false, /\.(png|jpe?g|svg)$/)
 		);
-		let pictureArray = [];
+		let pictureArray: any[] = [];
 
-		pics.forEach((e) => {
+		pics.forEach((e: any) => {
 			pictureArray.push(e.default);
 		});
 
@@ -29,7 +49,7 @@ function App() {
 				setUrl(iterator.next().value);
 				j++;
 			} else if (j === 17) {
-				pics.forEach((e) => {
+				pics.forEach((e: any) => {
 					pictureArray.push(e.default);
 				});
 				iterator = pictureArray.entries();
@@ -55,13 +75,13 @@ function App() {
 				className="container"
 			></div>
 			<h1 className="project-title">Movie Recommendation System</h1>
-			<RecommendationForm onMovies={(movie) => setRecommendedMovies(movie)} onCurrentMovie={(movie) => setCurrentMovie(movie)} />
+			<RecommendationForm onMovies={(movie: IRecommendedMovie[]) => setRecommendedMovies(movie)} onCurrentMovie={(movie: IUserCurrentMovie) => setCurrentMovie(movie)} />
 			<ListMovies
 				className="movie-component"
 				recommendedMovies={recommendedMovies}
 				currentMovie = {currentMovie}
-				clickedRecommendedMovies={(movie) => setRecommendedMovies(movie)}
-				clickedCurrentMovie ={(movie) => setCurrentMovie(movie)}
+				clickedRecommendedMovies={(movie: IRecommendedMovie[]) => setRecommendedMovies(movie)}
+				clickedCurrentMovie ={(movie: IUserCurrentMovie) => setCurrentMovie(movie)}
 			/>
 			<footer className="footer">&#169; 2020 Movie Recommendation System</footer>
 		</div>

@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import { Form, Input, Button } from "semantic-ui-react";
-export const RecommendationForm = ({ onMovies, onCurrentMovie }) => {
+import { IRecommendedMovie, IUserCurrentMovie } from "../App";
+
+export interface Props {
+	onMovies: (movie: IRecommendedMovie[]) => void;
+	onCurrentMovie: (movie: IUserCurrentMovie) => void;
+}
+export const RecommendationForm = ({ onMovies, onCurrentMovie }: Props) => {
 	const [title, setTitle] = useState("");
 
 	return (
